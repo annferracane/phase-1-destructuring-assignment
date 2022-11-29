@@ -24,7 +24,7 @@ const muppet = {
   partner: 'Kermit'
 };
 
-const {muppetName, color, song, job, partner} = muppet; 
+const [muppetName, color, song, job, partner] = muppet; 
 
 const nestedMuppet = {
   nestedName: 'Kermit',
@@ -41,9 +41,7 @@ const nestedMuppet = {
   nestedPartner: 'Miss Piggy'
 };
 
-const {song2, song4} = nestedMuppet.album.theMuppetMovie;
-
-const {nestedJob, nestedPartner} = nestedMuppet;
+const [song2, song4] = nestedMuppet.album.theMuppetMovie;
 
 // Strings
 

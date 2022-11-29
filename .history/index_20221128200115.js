@@ -24,7 +24,7 @@ const muppet = {
   partner: 'Kermit'
 };
 
-const {muppetName, color, song, job, partner} = muppet; 
+const [muppetName, color, song, job, partner] = muppet; 
 
 const nestedMuppet = {
   nestedName: 'Kermit',
